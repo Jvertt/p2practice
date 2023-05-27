@@ -1,0 +1,34 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "question": "COMPONENTS",
+      "answer": "Definition: Reusable and independent building blocks in React that encapsulate a portion of UI and logic."
+    },
+    {
+      "id": 2,
+      "question": "PROPS",
+      "answer": "Definition: Inputs to components for passing data from parent components to child components."
+    },
+    {
+      "id": 3,
+      "question": "REACT HOOKS",
+      "answer": "Identification: Special functions provided by React for using state and other features in functional components."
+    },
+    {
+      "id": 4,
+      "question": "ROUTING",
+      "answer": "Understanding: Familiarize yourself with the routing structure of your single-page application (SPA) and its aspects."
+    },
+    {
+      "id": 5,
+      "question": "POST REQUEST",
+      "answer": "Code Explanation: Practice explaining the code for sending a POST request in your application."
+    },
+    {
+      "question": "useEffect",
+      "answer": "A hook that allows performing side effects (e.g., data fetching, subscriptions) in functional components. It is called after rendering. useState: A hook that enables adding state to functional components, providing a way to manage and update component-specific data.",
+      "id": 6
+    }
+  ]
+}

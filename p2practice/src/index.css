@@ -1,0 +1,169 @@
+/* App.css */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.flashcard {
+  max-width: 500px;
+  background-color: #000;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.flashcard:hover {
+  transform: scale(1.05);
+}
+
+.flashcard-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.dot-container {
+  display: flex;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.dot-red {
+  background-color: #ff4d4d;
+}
+
+.dot-yellow {
+  background-color: #ffd633;
+}
+
+.dot-green {
+  background-color: #66ff66;
+}
+
+.flashcard-content {
+  margin: 20px;
+}
+
+.flashcard-question,
+.flashcard-answer {
+  font-family: 'Menlo', monospace;
+  font-size: 14px;
+  color: #fff;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.flashcard-answer {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.input-bar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-bar input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.input-bar button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1d1e22;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.input-bar button:hover {
+  background-color: #6e7281;
+}
+
+.add-flashcard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-flashcard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.add-flashcard .input-bar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-flashcard .input-bar input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.add-flashcard .input-bar button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1d1e22;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-flashcard .input-bar button:hover {
+  background-color: #6e7281;
+}
+
+
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #888;
+}
