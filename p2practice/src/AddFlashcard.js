@@ -1,3 +1,4 @@
+// AddFlashcard.js
 import React, { useState } from 'react';
 
 const AddFlashcard = ({ onAddFlashcard }) => {

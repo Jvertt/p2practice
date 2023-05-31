@@ -1,34 +1,104 @@
 {
-  "flashcards": [
-    {
-      "id": 1,
-      "question": "COMPONENTS",
-      "answer": "Definition: Reusable and independent building blocks in React that encapsulate a portion of UI and logic."
-    },
-    {
-      "id": 2,
-      "question": "PROPS",
-      "answer": "Definition: Inputs to components for passing data from parent components to child components."
-    },
-    {
-      "id": 3,
-      "question": "REACT HOOKS",
-      "answer": "Identification: Special functions provided by React for using state and other features in functional components."
-    },
-    {
-      "id": 4,
-      "question": "ROUTING",
-      "answer": "Understanding: Familiarize yourself with the routing structure of your single-page application (SPA) and its aspects."
-    },
-    {
-      "id": 5,
-      "question": "POST REQUEST",
-      "answer": "Code Explanation: Practice explaining the code for sending a POST request in your application."
-    },
-    {
-      "question": "useEffect",
-      "answer": "A hook that allows performing side effects (e.g., data fetching, subscriptions) in functional components. It is called after rendering. useState: A hook that enables adding state to functional components, providing a way to manage and update component-specific data.",
-      "id": 6
-    }
-  ]
+  "flashcards":[
+  {
+    "id": 1,
+    "question": "What is the difference between declarative and imperative programming?",
+    "answer": "Declarative programming focuses on what the program should accomplish, while imperative programming focuses on how to accomplish a task."
+  },
+  {
+    "id": 2,
+    "question": "What are the benefits of components and writing modular code?",
+    "answer": "Components promote reusability, maintainability, and scalability. Modular code improves collaboration, organization, and code reusability."
+  },
+  {
+    "id": 3,
+    "question": "What is the ReactDOM.render() method, and why is it important?",
+    "answer": "ReactDOM.render() is used to render React elements into the DOM. It's important because it initiates rendering and updates the DOM with the specified component or element."
+  },
+  {
+    "id": 4,
+    "question": "Define JSX and explain the difference between JSX and HTML.",
+    "answer": "JSX is a JavaScript extension used in React for defining UI components. It resembles HTML but is transpiled to JavaScript. JSX supports embedding JavaScript expressions and enables component composition."
+  },
+  {
+    "id": 5,
+    "question": "How do you identify components from a wireframe?",
+    "answer": "Components in a wireframe are identifiable as distinct UI elements such as sections, containers, buttons, forms, navigation bars, cards, etc."
+  },
+  {
+    "id": 6,
+    "question": "How do you build a component hierarchy from a wireframe?",
+    "answer": "Building a component hierarchy involves organizing components based on the wireframe's structure. Parent components contain child components, creating a hierarchical structure."
+  },
+  {
+    "id": 7,
+    "question": "What are props in React, and why are they used?",
+    "answer": "Props are used to pass data from a parent component to its child components. They facilitate data sharing, behavior customization, and component communication."
+  },
+  {
+    "id": 8,
+    "question": "How do you destructure props in React?",
+    "answer": "Destructuring props allows extracting specific values from the props object, resulting in cleaner and concise code."
+  },
+  {
+    "id": 9,
+    "question": "How do you add event handlers to elements in React?",
+    "answer": "Event handlers are added by assigning functions to element event attributes, like onClick, to respond to user interactions."
+  },
+  {
+    "id": 10,
+    "question": "How do you use the useState hook to create state variables?",
+    "answer": "The useState hook adds state to functional components in React. By calling useState with an initial value, it returns the state variable and a function to update it."
+  },
+  {
+    "id": 11,
+    "question": "What is the Flow of Information in React?",
+    "answer": "The Flow of Information refers to data and state movement between components in React. Data flows from parent to child components through props, while communication occurs via callbacks or functions passed as props."
+  },
+  {
+    "id": 12,
+    "question": "Why do we use controlled forms in React?",
+    "answer": "Controlled forms provide a predictable way to handle form data in React, enabling easier validation, manipulation, and synchronization with other components."
+  },
+  {
+    "id": 13,
+    "question": "How do you implement a controlled form in React?",
+    "answer": "Implementing a controlled form involves binding form inputs to state variables and handling their change events to update the state."
+  },
+  {
+    "id": 14,
+    "question": "What are the three phases of a React component lifecycle?",
+    "answer": "The three phases are Mounting, Updating, and Unmounting. Mounting initializes the component, Updating occurs on prop or state changes, and Unmounting removes the component."
+  },
+  {
+    "id": 15,
+    "question": "When do side effects occur in React components?",
+    "answer": "Side effects occur during different component lifecycle phases and include operations like data fetching or interacting with the DOM. They are managed using the useEffect hook."
+  },
+  {
+    "id": 16,
+    "question": "How do you use the useEffect hook to fetch data in React?",
+    "answer": "Use the useEffect hook with a callback function to fetch data asynchronously and update the component's state based on the fetched data."
+  },
+  {
+    "id": 17,
+    "question": "What are the advantages of using React Router?",
+    "answer": "React Router enables easy navigation between pages or components, supports dynamic routing, code splitting, and nested routes, making it flexible and scalable."
+  },
+  {
+    "id": 18,
+    "question": "What are the most common React Router components?",
+    "answer": "The most common components are BrowserRouter, Route, Switch, Link, and NavLink, providing routing and navigation functionality in React Router."
+  },
+  {
+    "id": 19,
+    "question": "How do you create dynamic routes in React Router?",
+    "answer": "Dynamic routes can be created by defining routes with parameters or placeholders that can change based on the URL, such as '/users/:id' for a user's ID."
+  },
+  {
+    "id": 20,
+    "question": "How do you access the state of the router and navigate pages in React Router?",
+    "answer": "The useHistory hook provides access to the history object for programmatic navigation, while useParams retrieves dynamic parameters from the URL."
+  }
+]
 }

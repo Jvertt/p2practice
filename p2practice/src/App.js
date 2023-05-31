@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FlashcardList from './FlashcardList';
 import AddFlashcard from './AddFlashcard';
+import Navbar from './Navbar';
 
 const App = () => {
   const [flashcards, setFlashcards] = useState([]);
@@ -54,19 +55,21 @@ const App = () => {
     <Router>
       <div className="app">
         <h1>Flashcard App</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/add">Add Flashcard</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<FlashcardList flashcards={flashcards} onDeleteFlashcard={handleDeleteFlashcard} />} />
-          <Route path="/add" element={<AddFlashcard onAddFlashcard={handleAddFlashcard} />} />
+          <Route
+            path="/"
+            element={
+              <FlashcardList
+                flashcards={flashcards}
+                onDeleteFlashcard={handleDeleteFlashcard}
+              />
+            }
+          />
+          <Route
+            path="/add"
+            element={<AddFlashcard onAddFlashcard={handleAddFlashcard} />}
+          />
         </Routes>
       </div>
     </Router>
